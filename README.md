@@ -22,6 +22,28 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+
+## Initializing Storybook in your NextJS app
+
+Once in the directory of the application, run the following command to install Storybook:
+
+```bash
+npx sb init
+```
+
+This will quickly set up the boilerplate needed for a working Storybook instance.
+
+## Running Storybook locally
+
+```bash
+npm run storybook
+# or
+yarn storybook
+# or
+pnpm storybook
+```
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -30,9 +52,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
